@@ -2,7 +2,16 @@
     "TabTitles": {
         "home": "Моє портфоліо"
     },
+    "NavBar": {
+        "about": "Про мене",
+        "skills": "Навички",
+        "projects": "Проєкти",
+        "contact": "Контакти"
+    },
     "HomePage": {
-        "title": "Привіт"
-    }     
+        "title": "Зробимо ваш бізнес найкращим разом — з професійним вебзастосунком!"
+    },
+    "About": {
+        "qualities": ["Quality", "Simplicity", "Speed"]
+    }       
 }

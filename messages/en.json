@@ -2,7 +2,16 @@
     "TabTitles": {
         "home": "My portfolio"
     },
+    "NavBar": {
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
     "HomePage": {
-        "title": "Hello"
+        "title": "Let’s make your business the best — with a professional web application!"
+    },
+    "About": {
+        "qualities": ["Якість", "Простота", "Швидкість"]
     }     
 }
