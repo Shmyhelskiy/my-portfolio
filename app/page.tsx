@@ -1,7 +1,8 @@
-import { AbstractIntlMessages } from "next-intl";
-import { getMessages } from "next-intl/server";
-import About from "./components/About";
-import QualitiesDisplay from "./components/QualitiesDisplay";
+import { AbstractIntlMessages } from 'next-intl';
+import { getMessages } from 'next-intl/server';
+import About from './components/About';
+import QualitiesDisplay from './components/QualitiesDisplay';
+import SkillsSection from './components/Skills/SkillsSection';
 
 export async function generateMetadata({
   params,
@@ -18,12 +19,12 @@ export async function generateMetadata({
   };
 }
 
-
 export default function Home() {
   return (
     <main className="flex flex-col gap-8 items-center">
       <About />
-      <QualitiesDisplay />
+      {/* <QualitiesDisplay /> */}
+      <SkillsSection />
     </main>
   );
 }

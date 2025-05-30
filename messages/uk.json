@@ -1,18 +1,51 @@
 {
-    "TabTitles": {
-        "home": "Моє портфоліо"
+  "TabTitles": {
+    "home": "Моє портфоліо"
+  },
+  "NavBar": {
+    "about": "Про мене",
+    "skills": "Навички",
+    "projects": "Проєкти",
+    "contact": "Контакти"
+  },
+  "About": {
+    "title": "Зробимо ваш бізнес найкращим разом — з професійним вебзастосунком!",
+    "subTitle": "Субтайтт"
+  },
+  "QualitiesDisplay": {
+    "qualities": ["Якість", "Простота", "Швидкість"]
+  },
+  "Skills": {
+    "frontend": {
+      "title": "Фронтенд",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Sass",
+        "Git",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "Redux Toolkit",
+        "Zustand"
+      ]
     },
-    "NavBar": {
-        "about": "Про мене",
-        "skills": "Навички",
-        "projects": "Проєкти",
-        "contact": "Контакти"
+    "backend": {
+      "title": "Бекенд",
+       "technologies": [
+        "Node.js",
+        "Express"
+      ]
     },
-    "About": {
-        "title": "Зробимо ваш бізнес найкращим разом — з професійним вебзастосунком!",
-        "subTitle": "Субтайтт"
-    },
-    "QualitiesDisplay": {
-        "qualities": ["Якість", "Простота", "Швидкість"]
-    }       
+    "databases": {
+      "title": "Бази даних",
+      "technologies": [
+        "SQL",
+        "Firebase Auth",
+        "Firestore"
+      ]
+    }
+  }
 }

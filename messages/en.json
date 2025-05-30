@@ -1,18 +1,51 @@
 {
-    "TabTitles": {
-        "home": "My portfolio"
+  "TabTitles": {
+    "home": "My portfolio"
+  },
+  "NavBar": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "About": {
+    "title": "Let’s make your business the best — with a professional web application!",
+    "subTitle": ""
+  },
+  "QualitiesDisplay": {
+    "qualities": ["Quality", "Simplicity", "Speed"]
+  },
+  "Skills": {
+    "frontend": {
+    "title": "Frontend",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "Sass",
+      "Git",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Zustand"
+    ]
     },
-    "NavBar": {
-        "about": "About",
-        "skills": "Skills",
-        "projects": "Projects",
-        "contact": "Contact"
+    "backend": {
+      "title": "Backend", 
+      "technologies": [
+        "Node.js",
+        "Express"
+      ]
     },
-    "About": {
-        "title": "Let’s make your business the best — with a professional web application!",
-        "subTitle": ""
-    },
-    "QualitiesDisplay": {
-        "qualities": ["Quality", "Simplicity", "Speed"]
-    }     
+    "databases": {
+      "title": "Databases",
+      "technologies": [
+        "SQL",
+        "Firebase Auth",
+        "Firestore"
+      ]
+    }
+  }
 }

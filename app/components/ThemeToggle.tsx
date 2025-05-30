@@ -1,9 +1,9 @@
 'use client';
 
-import { useTheme } from "next-themes";
-import { motion, AnimatePresence } from "framer-motion";
-import { FaMoon, FaSun } from "react-icons/fa";
-import { useMounted } from "@/hooks/useMounted";
+import { useTheme } from 'next-themes';
+import { motion, AnimatePresence } from 'framer-motion';
+import { FaMoon, FaSun } from 'react-icons/fa';
+import { useMounted } from '@/hooks/useMounted';
 
 const MotionFaSun = motion(FaSun);
 const MotionFaMoon = motion(FaMoon);
@@ -19,10 +19,10 @@ const ThemeToggle = () => {
       type="button"
       aria-label="Toggle Theme"
       className="flex items-center justify-center p-3 rounded-full cursor-pointer"
-      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
     >
       <AnimatePresence mode="wait" initial={false}>
-        {theme === "dark" ? (
+        {theme === 'dark' ? (
           <MotionFaSun
             key="sun"
             className="h-6 w-6 text-yellow-400"
