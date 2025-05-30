@@ -8,10 +8,11 @@
         "projects": "Projects",
         "contact": "Contact"
     },
-    "HomePage": {
-        "title": "Let’s make your business the best — with a professional web application!"
-    },
     "About": {
-        "qualities": ["Якість", "Простота", "Швидкість"]
+        "title": "Let’s make your business the best — with a professional web application!",
+        "subTitle": ""
+    },
+    "QualitiesDisplay": {
+        "qualities": ["Quality", "Simplicity", "Speed"]
     }     
 }

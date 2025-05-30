@@ -1,6 +1,7 @@
-import { AbstractIntlMessages, useTranslations } from "next-intl";
+import { AbstractIntlMessages } from "next-intl";
 import { getMessages } from "next-intl/server";
 import About from "./components/About";
+import QualitiesDisplay from "./components/QualitiesDisplay";
 
 export async function generateMetadata({
   params,
@@ -19,13 +20,10 @@ export async function generateMetadata({
 
 
 export default function Home() {
-  const t = useTranslations('HomePage');
   return (
     <main className="flex flex-col gap-8 items-center">
-      <h1 className="font-bold text-lg md:text-3xl text-center" >
-        {t('title')}
-      </h1>
       <About />
+      <QualitiesDisplay />
     </main>
   );
 }

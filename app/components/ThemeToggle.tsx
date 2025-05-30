@@ -3,20 +3,16 @@
 import { useTheme } from "next-themes";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaMoon, FaSun } from "react-icons/fa";
-import { useEffect, useState } from "react";
+import { useMounted } from "@/hooks/useMounted";
 
 const MotionFaSun = motion(FaSun);
 const MotionFaMoon = motion(FaMoon);
 
 const ThemeToggle = () => {
   const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
+  const mounted = useMounted();
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) return null
+  if (!mounted) return null;
 
   return (
     <button
