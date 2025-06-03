@@ -9,9 +9,9 @@ interface SkillCategory {
 const SkillsSection = () => {
   const t = useTranslations('Skills');
   const skillsDataArray: SkillCategory[] = Object.values({
-      frontend: t.raw("frontend"),
-      backend: t.raw("backend"),
-      databases: t.raw("databases")
+    frontend: t.raw("frontend"),
+    backend: t.raw("backend"),
+    databases: t.raw("databases")
   });
 
   const colors = ['yellow', 'blue', 'red'];

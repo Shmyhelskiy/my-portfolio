@@ -3,6 +3,7 @@ import { getMessages } from 'next-intl/server';
 import About from './components/About';
 import QualitiesDisplay from './components/QualitiesDisplay';
 import SkillsSection from './components/Skills/SkillsSection';
+import Projects from './components/Projects/Projects';
 
 export async function generateMetadata({
   params,
@@ -25,6 +26,7 @@ export default function Home() {
       <About />
       {/* <QualitiesDisplay /> */}
       <SkillsSection />
+      <Projects />
     </main>
   );
 }

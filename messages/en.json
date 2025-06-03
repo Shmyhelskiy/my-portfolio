@@ -29,23 +29,51 @@
       "Next.js",
       "Tailwind CSS",
       "Redux Toolkit",
-      "Zustand"
+      "Zustand",
+      "i18n"
     ]
     },
     "backend": {
       "title": "Backend", 
       "technologies": [
         "Node.js",
-        "Express"
+        "Express",
+        "Firebase Auth"
       ]
     },
     "databases": {
       "title": "Databases",
       "technologies": [
         "SQL",
-        "Firebase Auth",
         "Firestore"
       ]
+    }
+  },
+  "Projects": {
+    "mainTitle": "My recent projects",
+    "SkySight": {
+      "title": "SkySight",
+      "description": "A weather application created to display real-time weather data",
+      "demo": "https://next-weather-app-murex.vercel.app/",
+      "code": "https://github.com/Shmyhelskiy/next-weather-app"
+    },
+    "TaskTamer": {
+      "title": "Task Tamer",
+      "description": "a fully functional todo list application integrated with an API",
+      "demo": "https://shmyhelskiy.github.io/todo-with-app/",
+      "code": "https://github.com/Shmyhelskiy/todo-with-app"
+    },
+    "NumberCascade": {
+      "title": "Number Cascade",
+      "description": "a web-based implementation of the popular puzzle game",
+      "demo": "https://shmyhelskiy.github.io/Game_2048/",
+      "code": "https://github.com/Shmyhelskiy/Game_2048"
+    },
+    "SpotlightPage": {
+      "title": "Spotlight Page",
+      "description": " a sleek and engaging landing page designed to showcase products",
+      "demo": "https://shmyhelskiy.github.io/my-landing/",
+      "code": "https://github.com/Shmyhelskiy/my-landing"
     }
   }
 }

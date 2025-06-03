@@ -29,23 +29,51 @@
         "Next.js",
         "Tailwind CSS",
         "Redux Toolkit",
-        "Zustand"
+        "Zustand",
+        "i18n"
       ]
     },
     "backend": {
       "title": "Бекенд",
        "technologies": [
         "Node.js",
-        "Express"
+        "Express",
+        "Firebase Auth"
       ]
     },
     "databases": {
       "title": "Бази даних",
       "technologies": [
         "SQL",
-        "Firebase Auth",
         "Firestore"
       ]
+    }
+  },
+  "Projects": {
+    "mainTitle": "Мої останні проекти",
+    "SkySight": {
+      "title": "SkySight",
+      "description": "Метеорологічний додаток, створений для відображення даних про погоду в режимі реального часу",
+      "demo": "https://next-weather-app-murex.vercel.app/",
+      "code": "https://github.com/Shmyhelskiy/next-weather-app"
+    },
+    "TaskTamer": {
+      "title": "Task Tamer",
+      "description": "Повнофункціональний додаток для створення списку справ, інтегрований з API",
+      "demo": "https://shmyhelskiy.github.io/todo-with-app/",
+      "code": "https://github.com/Shmyhelskiy/todo-with-app"
+    },
+    "NumberCascade": {
+      "title": "Number Cascade",
+      "description": "a web-based implementation of the popular puzzle game",
+      "demo": "https://shmyhelskiy.github.io/Game_2048/",
+      "code": "https://github.com/Shmyhelskiy/Game_2048"
+    },
+    "SpotlightPage": {
+      "title": "Spotlight Page",
+      "description": "Веб-реалізація популярної гри-головоломки",
+      "demo": "https://shmyhelskiy.github.io/my-landing/",
+      "code": "https://github.com/Shmyhelskiy/my-landing"
     }
   }
 }
