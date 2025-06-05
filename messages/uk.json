@@ -65,7 +65,7 @@
     },
     "NumberCascade": {
       "title": "Number Cascade",
-      "description": "a web-based implementation of the popular puzzle game",
+      "description": "Веб-реалізація популярної гри-головоломки",
       "demo": "https://shmyhelskiy.github.io/Game_2048/",
       "code": "https://github.com/Shmyhelskiy/Game_2048"
     },

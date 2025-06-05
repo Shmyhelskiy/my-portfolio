@@ -1,11 +1,8 @@
 import { useTranslations } from "next-intl";
+import ProjectCard from "./ProjectCard";
+import { Project } from "@/app/types";
 
-interface Project {
-  title: string;
-  description: string;
-  demo: string;
-  code: string;
-}
+
 
 interface Projects {
   mainTitle: string;
@@ -14,18 +11,24 @@ interface Projects {
 
 const Projects = () => {
   const t = useTranslations("Projects");
-  const projectsDataArray: Projects[] = Object.values({
-    SkySight: t.raw("SkySight"),
-    TaskTamer: t.raw("TaskTamer"),
-    NumberCascade: t.raw("NumberCascade"),
-    SpotlightPage: t.raw("SpotlightPage")
-  });
-
+  const projectsData: Projects = {
+    mainTitle: t("mainTitle"),
+    projects: {
+      SkySight: t.raw("SkySight"),
+      TaskTamer: t.raw("TaskTamer"),
+      NumberCascade: t.raw("NumberCascade"),
+      SpotlightPage: t.raw("SpotlightPage"),
+    },
+  };
+  const projectsArray = Object.values(projectsData.projects);
+  
   return (
-    <section className="h-[100vh]">
-      <h2 className="text-center text-2xl front-bold"> {t('mainTitle')}</h2>
-      <article>
-
+    <section className="h-[100vh] w-full">
+      <h2 className="text-center text-2xl front-bold pb-2"> {t('mainTitle')}</h2>
+      <article className="grid grid-cols-3 gap-8 px-8">
+        {projectsArray.map((item, index) => {
+          return <ProjectCard project={item} key={index} />
+        })}
       </article>
     </section>
   )

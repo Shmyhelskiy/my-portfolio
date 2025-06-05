@@ -59,19 +59,19 @@
     },
     "TaskTamer": {
       "title": "Task Tamer",
-      "description": "a fully functional todo list application integrated with an API",
+      "description": "A fully functional todo list application integrated with an API",
       "demo": "https://shmyhelskiy.github.io/todo-with-app/",
       "code": "https://github.com/Shmyhelskiy/todo-with-app"
     },
     "NumberCascade": {
       "title": "Number Cascade",
-      "description": "a web-based implementation of the popular puzzle game",
+      "description": "A web-based implementation of the popular puzzle game",
       "demo": "https://shmyhelskiy.github.io/Game_2048/",
       "code": "https://github.com/Shmyhelskiy/Game_2048"
     },
     "SpotlightPage": {
       "title": "Spotlight Page",
-      "description": " a sleek and engaging landing page designed to showcase products",
+      "description": "A sleek and engaging landing page designed to showcase products",
       "demo": "https://shmyhelskiy.github.io/my-landing/",
       "code": "https://github.com/Shmyhelskiy/my-landing"
     }

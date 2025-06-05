@@ -4,6 +4,7 @@ import About from './components/About';
 import QualitiesDisplay from './components/QualitiesDisplay';
 import SkillsSection from './components/Skills/SkillsSection';
 import Projects from './components/Projects/Projects';
+import Contacts from './components/Contacts';
 
 export async function generateMetadata({
   params,
@@ -27,6 +28,7 @@ export default function Home() {
       {/* <QualitiesDisplay /> */}
       <SkillsSection />
       <Projects />
+      <Contacts />
     </main>
   );
 }
