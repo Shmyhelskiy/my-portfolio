@@ -1,11 +1,17 @@
-import { AbstractIntlMessages } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import About from './components/About';
-import QualitiesDisplay from './components/QualitiesDisplay';
+// import QualitiesDisplay from './components/QualitiesDisplay';
 import SkillsSection from './components/Skills/SkillsSection';
 import Projects from './components/Projects/Projects';
   import Contacts from './components/Contacts/Contacts';
 import NavBar from './components/NavBar';
+
+
+interface MessagesType {
+  TabTitles: {
+    home: string;
+  };
+}
 
 export async function generateMetadata({
   params,
@@ -14,8 +20,8 @@ export async function generateMetadata({
 }) {
   const { locale } = params;
 
-  const messages: AbstractIntlMessages = await getMessages({ locale });
-  const title = messages.TabTitles?.home;
+  const messages = (await getMessages({ locale })) as MessagesType;
+  const title = messages.TabTitles.home;
 
   return {
     title,

@@ -43,6 +43,7 @@ const Contacts = () => {
   return (
     <footer 
       className="bg-black w-full h-[20vh] relative"
+      id="contact"
     >
       <div
         className="flex justify-center items-center gap-6 h-full"
