@@ -1,42 +1,34 @@
 import { getMessages } from 'next-intl/server';
+import type { Metadata } from 'next';
 import About from './components/About';
 // import QualitiesDisplay from './components/QualitiesDisplay';
 import SkillsSection from './components/Skills/SkillsSection';
 import Projects from './components/Projects/Projects';
-  import Contacts from './components/Contacts/Contacts';
+import Contacts from './components/Contacts/Contacts';
 import NavBar from './components/NavBar';
 
-
-interface MessagesType {
-  TabTitles: {
-    home: string;
-  };
+type Props = {
+  params: Promise<{ locale: string }>;
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { locale: string };
-}) {
-  const { locale } = params;
+export const generateMetadata = async ({ params }: Props): Promise<Metadata> => {
+  const resolvedParams = await params;
+  const messages = await getMessages({ locale: resolvedParams.locale });
+  const tabTitles = messages.TabTitles as { home: string } | undefined;
+  const title = tabTitles?.home ?? 'Default title';
 
-  const messages = (await getMessages({ locale })) as MessagesType;
-  const title = messages.TabTitles.home;
+  return { title };
+};
 
-  return {
-    title,
-  };
-}
-
-export default function Home() {
-  return (
-    <main className="flex flex-col gap-8 items-center">
-      <NavBar />  
-      <About />
-      {/* <QualitiesDisplay /> */}
-      <SkillsSection />
-      <Projects />
-      <Contacts />
-    </main>
-  );
-}
+  export default function Home() {
+    return (
+      <main className="flex flex-col gap-8 items-center">
+        <NavBar />  
+        <About />
+        {/* <QualitiesDisplay /> */}
+        <SkillsSection />
+        <Projects />
+        <Contacts />
+      </main>
+    );
+  }
