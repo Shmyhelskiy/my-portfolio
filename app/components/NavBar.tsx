@@ -46,7 +46,7 @@ const NavBar = () => {
   if (!mounted) return null;
 
   return (
-    <nav className="sticky top-0 z-50 flex flex-col border-b-2 border-gray-500 gap-2 p-4 mb-4 bg-white dark:bg-black">
+    <nav className="w-full sticky top-0 z-50 flex flex-col border-b-2 border-gray-500 gap-2 p-4 mb-4 bg-white dark:bg-black">
       <div className="flex justify-end md:justify-between items-center">
         <h1 className="hidden md:flex items-center">Hello</h1>
         <div className="flex md:gap-2 items-center">

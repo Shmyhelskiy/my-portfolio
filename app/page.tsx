@@ -4,7 +4,8 @@ import About from './components/About';
 import QualitiesDisplay from './components/QualitiesDisplay';
 import SkillsSection from './components/Skills/SkillsSection';
 import Projects from './components/Projects/Projects';
-import Contacts from './components/Contacts';
+  import Contacts from './components/Contacts/Contacts';
+import NavBar from './components/NavBar';
 
 export async function generateMetadata({
   params,
@@ -24,6 +25,7 @@ export async function generateMetadata({
 export default function Home() {
   return (
     <main className="flex flex-col gap-8 items-center">
+      <NavBar />  
       <About />
       {/* <QualitiesDisplay /> */}
       <SkillsSection />

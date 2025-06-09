@@ -75,5 +75,19 @@
       "demo": "https://shmyhelskiy.github.io/my-landing/",
       "code": "https://github.com/Shmyhelskiy/my-landing"
     }
+  },
+    "ContactsActions": {
+    "email": "Відправити повідомлення",
+    "cv": "Завантажити резюме"
+  },
+  "ContactForm": {
+    "title": "Зв'яжіться зі мною",
+    "name": "Ім'я",
+    "email": "Електронна пошта",
+    "message": "Повідомлення",
+    "contactMethod": "Кращий спосіб зв'язку",
+    "phone": "Телефон",
+    "telegram": "Telegram",
+    "submit": "Відправити повідомлення"
   }
 }

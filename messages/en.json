@@ -10,7 +10,7 @@
   },
   "About": {
     "title": "Let’s make your business the best — with a professional web application!",
-    "subTitle": ""
+    "subTitle": "subTitle"
   },
   "QualitiesDisplay": {
     "qualities": ["Quality", "Simplicity", "Speed"]
@@ -75,5 +75,19 @@
       "demo": "https://shmyhelskiy.github.io/my-landing/",
       "code": "https://github.com/Shmyhelskiy/my-landing"
     }
+  },
+  "ContactsActions": {
+    "email": "Send Email",
+    "cv": "Download CV"
+  },
+  "ContactForm": {
+    "title": "Get in Touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "contactMethod": "Preferred Contact Method",
+    "phone": "Phone",
+    "telegram": "Telegram",
+    "submit": "Send Message"
   }
 }

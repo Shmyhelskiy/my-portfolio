@@ -2,6 +2,7 @@ import Link from "next/link";
 import { IconType } from "react-icons";
 import { FaTelegramPlane, FaEnvelope, FaLinkedinIn, FaPhone } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
+import ContactActions from "./ContactActions";
 
 interface SocialLink {
   name: string;
@@ -41,7 +42,7 @@ const socialLinks: SocialLink[] = [
 const Contacts = () => {
   return (
     <footer 
-      className="bg-black w-full h-[20vh]"
+      className="bg-black w-full h-[20vh] relative"
     >
       <div
         className="flex justify-center items-center gap-6 h-full"
@@ -57,6 +58,8 @@ const Contacts = () => {
             <item.icon size={32} className="text-blue-500" />
           </Link>
         ))}
+
+        <ContactActions />
       </div>
     </footer>
   )
