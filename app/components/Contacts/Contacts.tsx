@@ -59,7 +59,6 @@ const Contacts = () => {
             <item.icon size={32} className="text-blue-500" />
           </Link>
         ))}
-
         <ContactActions />
       </div>
     </footer>
