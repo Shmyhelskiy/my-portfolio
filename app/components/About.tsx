@@ -16,7 +16,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="min-h-[75vh] scroll-mt-[140px] text-center text-3xl flex flex-col items-center gap-6"
+      className="min-h-[20vh] sm:min-h-[75vh] scroll-mt-[140px] text-center text-3xl flex flex-col items-center gap-6"
     >
       <h1 className="font-bold text-lg md:text-3xl">{t('title')}</h1>
       <h2 className="text-base md:text-xl font-medium text-gray-800">

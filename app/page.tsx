@@ -1,7 +1,7 @@
 import { getMessages } from 'next-intl/server';
 import type { Metadata } from 'next';
 import About from './components/About';
-// import QualitiesDisplay from './components/QualitiesDisplay';
+import QualitiesDisplay from './components/QualitiesDisplay';
 import SkillsSection from './components/Skills/SkillsSection';
 import Projects from './components/Projects/Projects';
 import Contacts from './components/Contacts/Contacts';

@@ -25,7 +25,7 @@ const Projects = () => {
   return (
     <section className="h-[100vh] w-full scroll-mt-[140px]" id="projects">
       <h2 className="text-center text-2xl front-bold pb-2">{t('mainTitle')}</h2>
-      <article className="grid grid-cols-3 gap-8 px-8">
+      <article className="grid grid-cols-1 sm:grid-cols-3 gap-8 px-8">
         {projectsArray.map((item, index) => {
           return <ProjectCard project={item} key={index} />
         })}

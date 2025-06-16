@@ -17,8 +17,8 @@ const SkillsSection = () => {
   const colors = ['yellow', 'blue', 'red'];
 
   return (
-   <section id="skills" className="w-full py-10 scroll-mt-[140px]">
-      <div className="flex justify-around gap-8 px-8">
+   <section id="skills" className="w-full scroll-mt-[140px]">
+      <div className="flex flex-col sm:flex-row sm:justify-around gap-6 sm:gap-8 sm:px-8">
           {skillsDataArray.map((skill, index) => {
               return <SkillsCard key={skill.title} title={skill.title} skills={skill.technologies} color={colors[index]} />
           })}

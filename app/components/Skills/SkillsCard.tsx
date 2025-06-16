@@ -14,13 +14,13 @@ const SkillsCard:FC<SkillsCardProps> = ({ title, skills, color }) => {
     "text-red-500": color === "red"
   });
   return (
-    <div className="bg-gray-800 p-4 rounded-lg w-full">
-      <h2 className={`${colorClass} text-center text-2xl font-bold mb-4`}>{title}</h2>
-      <ul className="text-white text-xl space-y-2 grid grid-cols-2 gap-1">
+    <div className="bg-gray-800 p-3 rounded-lg w-48 mx-auto sm:w-full">
+      <h2 className={`${colorClass} text-center text-base font-semibold mb-3 sm:text-2xl sm:font-bold sm:mb-4`}>{title}</h2>
+      <ul className="text-white text-lg sm:space-y-2 grid grid-cols-1 sm:grid-cols-2 gap-2">
         {skills.map((skill) => (
             <li key={skill} 
               className={clsx(
-                "w-fit pl-5 cursor-pointer hover:scale-105 hover:font-bold hover:translate-x-2 transition-transform duration-300 ",
++               "w-fit pl-3 pr-2 py-1 cursor-pointer rounded bg-gray-700 transition-transform duration-300 hover:scale-105 hover:font-semibold hover:translate-x-1",
                 {
                   "hover:text-yellow-500": colorClass === "text-yellow-500",
                   "hover:text-blue-500": colorClass === "text-blue-500",
