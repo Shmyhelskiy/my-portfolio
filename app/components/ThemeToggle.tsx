@@ -5,8 +5,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { FaMoon, FaSun } from 'react-icons/fa';
 import { useMounted } from '@/hooks/useMounted';
 
-const MotionFaSun = motion(FaSun);
-const MotionFaMoon = motion(FaMoon);
+const MotionFaSun = motion.create(FaSun);
+const MotionFaMoon = motion.create(FaMoon);
 
 const ThemeToggle = () => {
   const { theme, setTheme } = useTheme();

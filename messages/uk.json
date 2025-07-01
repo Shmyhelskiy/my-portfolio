@@ -52,31 +52,43 @@
   "Projects": {
     "mainTitle": "Мої останні проекти",
     "SkySight": {
+      "id": "sky-sight",
       "title": "SkySight",
       "description": "Метеорологічний додаток, створений для відображення даних про погоду в режимі реального часу",
+      "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "OpenWeather API", "Google maps", "Framer Motion", "Zustand"],
+      "role": "Fullstack-розробник",
       "demo": "https://next-weather-app-murex.vercel.app/",
       "code": "https://github.com/Shmyhelskiy/next-weather-app"
     },
     "TaskTamer": {
+      "id": "task-tamer",
       "title": "Task Tamer",
       "description": "Повнофункціональний додаток для створення списку справ, інтегрований з API",
+      "technologies": ["React", "TypeScript", "CSS3", "REST API"],
+      "role": "Frontend-розробник",
       "demo": "https://shmyhelskiy.github.io/todo-with-app/",
       "code": "https://github.com/Shmyhelskiy/todo-with-app"
     },
     "NumberCascade": {
+      "id": "number-cascade",
       "title": "Number Cascade",
       "description": "Веб-реалізація популярної гри-головоломки",
+      "technologies": ["JavaScript", "HTML5", "CSS3"],
+      "role": "Frontend-розробник",
       "demo": "https://shmyhelskiy.github.io/Game_2048/",
       "code": "https://github.com/Shmyhelskiy/Game_2048"
     },
     "SpotlightPage": {
+      "id": "spotlight-page",
       "title": "Spotlight Page",
-      "description": "Веб-реалізація популярної гри-головоломки",
+      "description": "Лендінг із сучасним дизайном для демонстрації продуктів",
+      "technologies": ["HTML5", "CSS3"],
+      "role": "Frontend-розробник",
       "demo": "https://shmyhelskiy.github.io/my-landing/",
       "code": "https://github.com/Shmyhelskiy/my-landing"
     }
   },
-    "ContactsActions": {
+  "ContactsActions": {
     "email": "Відправити повідомлення",
     "cv": "Завантажити резюме"
   },

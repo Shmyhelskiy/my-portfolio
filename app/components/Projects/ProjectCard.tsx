@@ -4,6 +4,7 @@ import { Project } from '@/app/types';
 import { FaAngleDoubleRight, FaGithub, FaPlayCircle  } from "react-icons/fa";
 import { motion, AnimatePresence } from 'framer-motion';
 import CustomLink from '../CustomLink';
+import Link from 'next/link';
 
 
 interface ProjectProps {
@@ -48,12 +49,14 @@ const ProjectCard: FC<ProjectProps> = ({ project }) => {
                   <FaPlayCircle />
                 </CustomLink>
               </div>
+              <Link href={`/projects/${project.id}`} className="text-red-300">
+                <span className="text-lg text-white">Переглянути проєкт</span>
+              </Link>
             </motion.div>
           )}
         </AnimatePresence>
       </motion.div>
 
-      {/* Кнопка для перевертання */}
       <button
         className="absolute bottom-2 right-2 text-yellow-500 cursor-pointer hover:scale-110 transition-transform"
         onClick={() => setIsFlipped(!isFlipped)}
