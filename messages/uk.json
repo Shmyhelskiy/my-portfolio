@@ -16,6 +16,7 @@
     "qualities": ["Якість", "Простота", "Швидкість"]
   },
   "Skills": {
+    "mainTitle": "Навички",
     "frontend": {
       "title": "Фронтенд",
       "technologies": [

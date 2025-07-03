@@ -44,7 +44,7 @@ const Page = () => {
   },  [name, email, message])
 
   return (
-    <section className='max-w-xl mx-auto p-6  h-screen flex flex-col justify-center'>
+    <section className='max-w-xl mx-auto p-6  h-screen flex flex-col justify-center dark:text-black'>
       <form 
         className='px-2 space-y-4 relative bg-white shadow-md rounded-lg border-2 border-amber-400'
         onSubmit={handleSubmit}

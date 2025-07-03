@@ -16,6 +16,7 @@
     "qualities": ["Quality", "Simplicity", "Speed"]
   },
   "Skills": {
+    "mainTitle": "Skills",
     "frontend": {
     "title": "Frontend",
     "technologies": [
